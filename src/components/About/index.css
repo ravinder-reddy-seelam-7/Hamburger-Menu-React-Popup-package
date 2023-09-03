@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.about-bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lg-about {
+  display: none;
+}
+.sm-about {
+  display: inline;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-about {
+    display: inline;
+    width: 100%;
+  }
+  .sm-about {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.home-bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lg-home {
+  display: none;
+}
+.sm-home {
+  display: inline;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-home {
+    display: inline;
+    width: 100%;
+  }
+  .sm-home {
+    display: none;
+  }
+}
